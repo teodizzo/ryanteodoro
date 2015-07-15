@@ -16,6 +16,8 @@ and open the template in the editor.
         <div class="container text-center">
             <h3>Welcome to Teodizzo</h3>
             <p class="text-muted">We hope that you enjoy your stay.</p>
+            <p class="text-muted">We hope that you enjoy your stay.</p>
+            <p class="text-muted">We hope that you enjoy your stay.</p>
         </div>
     </body>
 </html>
