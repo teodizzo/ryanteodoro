@@ -876,7 +876,7 @@ body {
 
 /* My code */
 .navbar-default .nav li a { 
-    color: gray;
+    color: #fff;
     padding: 10px;
 }
 
