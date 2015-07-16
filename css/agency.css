@@ -265,13 +265,14 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg-skyline-2.jpg);
+    background-image: url(../img/header-bg-skyline-3.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    padding-bottom: 50px;
 }
 
 header .intro-text {
@@ -279,25 +280,25 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
-    margin-top: 0;
-    margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif; // change this font
-    font-size: 20px;
-    font-style: italic;
-    line-height: 22px;
-    color: #fff;
-}
-
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 60px;
     color: #fed136;
     padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-top: 0;
+    padding-top: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif; // change this font
+    font-size: 30px;
+    font-style: italic;
+    line-height: 22px;
+    color: #444;
 }
 
 @media(min-width:768px) {
@@ -306,22 +307,22 @@ header .intro-text .intro-heading {
         padding-bottom: 200px;
     }
 
-    header .intro-text .intro-lead-in {
-        color: #fff;
-        margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 20px;
-        font-style: italic;
-        line-height: 20px;
-    }
-
     header .intro-text .intro-heading {
         margin-bottom: 10px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 70px;
         font-weight: 700;
         line-height: 75px;
+    }
+    
+    header .intro-text .intro-lead-in {
+        color: #444;
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 30px;
+        font-style: italic;
+        line-height: 30px;
     }
 }
 
@@ -875,4 +876,8 @@ body {
 .navbar-default .nav li a { 
     color: gray;
     padding: 10px;
+}
+
+.spacer {
+    margin-top: 50px
 }
