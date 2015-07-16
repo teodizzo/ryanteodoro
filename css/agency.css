@@ -265,7 +265,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg-skyline-1.jpg);
+    background-image: url(../img/header-bg-skyline-2.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -310,9 +310,9 @@ header .intro-text .intro-heading {
         color: #fff;
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 20px;
         font-style: italic;
-        line-height: 40px;
+        line-height: 20px;
     }
 
     header .intro-text .intro-heading {
@@ -871,6 +871,7 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 
+/* My code */
 .navbar-default .nav li a { 
     color: gray;
     padding: 10px;
