@@ -1,2 +1,2 @@
-# teodizzo
-Men's clothing store
+# ryanteodoro
+Portfolio website 
