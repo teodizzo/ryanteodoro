@@ -875,9 +875,20 @@ body {
 }
 
 /* My code */
-.navbar-default .nav li a { 
+.navbar-default .nav li a {
     color: #fff;
     padding: 10px;
+}
+
+.activity-date {
+    color: #fed136;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-header {
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 .spacer {
