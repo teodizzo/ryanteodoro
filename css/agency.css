@@ -892,5 +892,16 @@ body {
 }
 
 .spacer {
-    margin-top: 50px
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+.resume a {
+    color: red;
+}
+
+.resume a:hover {
+    color: blue;
+    text-decoration: none;
 }
