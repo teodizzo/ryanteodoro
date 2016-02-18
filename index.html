@@ -31,6 +31,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script src='js/google-analytics.js'></script> 
+
 </head>
 
 <body id="page-top" class="index">
@@ -62,10 +64,10 @@
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#resume-section">Resume</a>
+                        <a class="page-scroll" href="#resume">Resume</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Me</a>
+                        <a class="page-scroll" href="#me">Me</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -205,7 +207,7 @@
                         <p class="text-muted">Website Design</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <!--<div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -246,13 +248,13 @@
                         <h4>Dreams</h4>
                         <p class="text-muted">Website Design</p>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>
 
     <!-- Certifications and Activities -->
-    <section id="">
+    <section id="certifications-activities">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -264,8 +266,8 @@
             <div class="row text-center">
                 <div class="col-md-6">
                     <h4 class="activity-header">Youth Leadership Council</h4>
-                    <p class="activity-date"><em>2014 - Present</em></p>
-                    <p class="text-muted">I'm a board member of this volunteer organization. It was founded in 1989 with the goal of helping young Asian Americans build up their leadership skills. We organize an annual conference at Rice University here in Houston where 144 high schoolers come from all over the United States in order to participate.</p>
+                    <p class="activity-date"><em>2014 - Present (Board Member)</em></p>
+                    <p class="text-muted">This organization was founded in 1989 with the goal of helping young Asian Americans build leadership skills. We organize an annual conference at the Rice University where 144 high schoolers come from all over the United States in order to participate.</p>
                     <h4 class="activity-header">Global Game Jam</h4>
                     <p class="activity-date"><em>2015</em></p>
                     <p class="text-muted">This is the world's largest game jam event, it's basically a 48 hour hackathon focused on game development. I was one of two programmers but I also assisted with some of the art assets. We created the game inside of Unity and utilized a fully 3D level, but with animated 2D sprites for the characters. See more <a href="http://globalgamejam.org/2015/games/confuzzled">here.</a></p>
@@ -274,35 +276,39 @@
                     <p class="text-muted">During my senior year of high school, I participated in SkillUSA's 3D Animation competition and won 1st place in regionals, and 3rd place at state.</p>
                     <h4 class="activity-header">Business Professionals of America</h4>
                     <p class="activity-date"><em>2007</em></p>
-                    <p class="text-muted">I competed in BPA's Video Production Team event along with three others. We placed first in the regional competition but did not end up placing at state. Despite this fact, we all had a great time and learned a lot from the experience.</p>
+                    <p class="text-muted">I competed in BPA's Video Production Team event along with three others. We placed first in the regional competition.</p>
                 </div>
                 <div class="col-md-6">
                     <h4 class="activity-header">Salesforce</h4>
-                    <p class="activity-date"><em>2014</em></p>
-                    <p class="text-muted">I obtained my certification (Salesforce.com Certified Developer) after attending a week-long training course and studying the material for a few weeks. I utilize these skills everyday at HP on the transformation project I'm currently assigned to.</p>
+                    <p class="activity-date"><em>2014 - Present (Salesforce.com Certified Developer)</em></p>
+                    <p class="text-muted">I obtained this certification after attending a week-long training course. I utilize these skills everyday at HP on the transformation project I'm currently assigned to.</p>
                     <h4 class="activity-header">Lean Six Sigma</h4>
-                    <p class="activity-date"><em>2015</em></p>
+                    <p class="activity-date"><em>2015 - Present (White Belt Certified)</em></p>
                     <p class="text-muted">After attending a seminar, I received my Lean Six Sigma White Belt certification. They taught us the core principles and how to apply them in the workplace in order to work more efficiently. I was also awarded first place for my creative solution to a unique problem that we were faced with during the training.</p>
                     <h4 class="activity-header">Deans List</h4>
                     <p class="activity-date"><em>Spring & Fall 2012</em></p>
                     <p class="text-muted">I was recognized by the university during my last year of college for my exceptional overall GPA.</p>
                 </div>
             </div>
-            <div id="resume-section" class="row text-center">
-                <div class="spacer">
-                </div>
-                <div>
-                    <div class="col-md-12 resume-section">
-                        <h3 class="resume"><a href="#">View Resume</a></h3>
-                    </div>
+        </div>
+    </section>
+
+    <section id='resume' class="bg-light-gray">
+            <div class='container text-center'>
+                <div class="col-md-12 resume-section">
+                    <a href="2015_7-19_Resume_Teodoro.docx">
+                        <button class='btn btn-lg btn-info'>
+                            View Resume
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
     <!-- End of Certifications and Activities -->
 
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <!-- Me Section -->
+    <section id="me" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -335,7 +341,7 @@
         </div>
     </section>
 
-    
+
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
@@ -432,7 +438,7 @@
                             <p>This was a website I made for some of my good friends. I wanted them to have full control over the design, so I built the entire site from the ground up using no frameworks. Majority of the website was built with HTML, CSS, JavaScript/jQuery, PHP, and SQL.</p>
                             <p>The couple wanted to shy away from the conventional RSVP process so I developed a solution that would allow guests to visit the website and submit their information via the RSVP page. The backend functionality was built using PHP and a MySQL server while I utilized jQuery to dynamically display the appropriate content for each user.</p>
                             <p>Vist the site <a href="http://kingandjenn.com">here.</a></p>
-                            
+
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
@@ -503,7 +509,7 @@
         </div>
     </div>
 
-    <!-- Portfolio Modal 4 -->
+    <!-- Portfolio Modal 4 --
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -516,7 +522,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <!-- Project Details Go Here -->
+                            <!-- Project Details Go Here -
                             <h2>Project Name</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                             <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
@@ -528,7 +534,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <!-- Portfolio Modal 5 -->
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
