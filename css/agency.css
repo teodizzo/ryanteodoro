@@ -230,6 +230,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
+<<<<<<< HEAD
+=======
+/* On LARGE devices */
+>>>>>>> 09bd867b7439b101419e44df80a0c264eb45ded2
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -261,17 +265,29 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+<<<<<<< HEAD
+=======
+/* End LARGE devices */
+>>>>>>> 09bd867b7439b101419e44df80a0c264eb45ded2
 header { 
     text-align: center;
     color: #fff;
     background-attachment: scroll;
+<<<<<<< HEAD
     background-image: url(../img/header-bg-sky.jpg);
+=======
+    background-image: url(../img/header-night-3.jpg);
+>>>>>>> 09bd867b7439b101419e44df80a0c264eb45ded2
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+<<<<<<< HEAD
+=======
+    padding-bottom: 100px;
+>>>>>>> 09bd867b7439b101419e44df80a0c264eb45ded2
 }
 
 header .intro-text {
@@ -279,6 +295,7 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+<<<<<<< HEAD
 header .intro-text .intro-lead-in {
     margin-top: 0;
     margin-bottom: 25px;
@@ -298,6 +315,27 @@ header .intro-text .intro-heading {
     line-height: 50px;
     color: #fed136;
     padding-bottom: 0px;
+=======
+header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fed136;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-top: 0;
+    padding-top: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif; // change this font
+    font-size: 30px;
+    font-style: italic;
+    line-height: 22px;
+    color: #fff;
+>>>>>>> 09bd867b7439b101419e44df80a0c264eb45ded2
 }
 
 @media(min-width:768px) {
@@ -306,6 +344,7 @@ header .intro-text .intro-heading {
         padding-bottom: 200px;
     }
 
+<<<<<<< HEAD
     header .intro-text .intro-lead-in {
         color: #fff;
         margin-bottom: 25px;
@@ -315,14 +354,32 @@ header .intro-text .intro-heading {
         line-height: 40px;
     }
 
+=======
+>>>>>>> 09bd867b7439b101419e44df80a0c264eb45ded2
     header .intro-text .intro-heading {
         margin-bottom: 10px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+<<<<<<< HEAD
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
     }
+=======
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+    
+    header .intro-text .intro-lead-in {
+        color: #fff;
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 30px;
+        font-style: italic;
+        line-height: 30px;
+    }
+>>>>>>> 09bd867b7439b101419e44df80a0c264eb45ded2
 }
 
 section {
@@ -871,7 +928,40 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 
+<<<<<<< HEAD
 .navbar-default .nav li a { 
     color: gray;
     padding: 10px;
+=======
+/* My code */
+.navbar-default .nav li a {
+    color: #fff;
+    padding: 10px;
+}
+
+.activity-date {
+    color: #fed136;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-header {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.spacer {
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+.resume a {
+    color: red;
+}
+
+.resume a:hover {
+    color: blue;
+    text-decoration: none;
+>>>>>>> 09bd867b7439b101419e44df80a0c264eb45ded2
 }
