@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ryanteodoro-old
 This is the old portfolio website for Ryan Teodoro. You can view this website's archive [here](http://old.ryanteodoro.com), or you can view the new (simple) website [here](http://www.ryanteodoro.com)
 
@@ -20,7 +19,3 @@ $ php -S localhost:3000
 ```
 
 - Visit the site locally at [http://localhost:3000](http://localhost:3000)
-=======
-# ryanteodoro
-Portfolio website 
->>>>>>> 09bd867b7439b101419e44df80a0c264eb45ded2
